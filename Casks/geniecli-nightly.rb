@@ -19,8 +19,4 @@ cask "geniecli-nightly" do
   desc "Nightly builds of the Genie CLI"
 
   binary "cosine"
-
-  preflight do
-    system_command "ls", args: ["-la", staged_path]
-  end  
 end
