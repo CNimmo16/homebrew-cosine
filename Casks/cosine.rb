@@ -3,12 +3,12 @@ cask "cosine" do
   version "0.1.0"
 
   on_intel do
-                                            url "https://github.com/CNimmo16/genie-cli/releases/download/0.1.0/cosine-darwin-amd64.zip"
-                                            sha256 "dc6c4cce7d479ee4145cc5f989cde4fbf6f69f07d793f1c80eb8371637a5b8e1"
+                                                url "https://github.com/CNimmo16/genie-cli/releases/download/0.1.0/cosine-darwin-amd64.zip"
+                                                sha256 "51611252366de28c82b305a9b613d37167abfe10bdf810433d4cc0c2a4b2ae0d"
   end
   on_arm do
-                                            url "https://github.com/CNimmo16/genie-cli/releases/download/0.1.0/cosine-darwin-arm64.zip"
-                                            sha256 "77512ab4487e7e73692314eba7fbccb940255552556888c6b8ef3997e50ce196"
+                                                url "https://github.com/CNimmo16/genie-cli/releases/download/0.1.0/cosine-darwin-arm64.zip"
+                                                sha256 "914b78f30408f7fdaa93b5b7aad2a5485162700f7e5d21f53f35d37ce1fad55a"
   end
 
   name "Cosine CLI"
