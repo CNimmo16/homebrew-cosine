@@ -1,14 +1,14 @@
 cask "geniecli" do
   arch arm: "arm64", intel: "x86_64"
-  version "0.1.0"
+  version "0.1.2"
 
   on_intel do
-                                    url "https://github.com/CNimmo16/genie-cli/releases/download/0.1.0/cosine-darwin-amd64.zip"
-                                    sha256 "f3daf8015a7a3ceec3eba042c0dba5ae3068c95df86a223d5c48f4c42eb089a2"
+                                        url "https://github.com/CNimmo16/genie-cli/releases/download/0.1.2/cosine-darwin-amd64.zip"
+                                        sha256 "6bbd5e872053d4904db5bcc2cb2f9f4c79df7555366fefd6b54a02b10a5f92b6"
   end
   on_arm do
-                                    url "https://github.com/CNimmo16/genie-cli/releases/download/0.1.0/cosine-darwin-arm64.zip"
-                                    sha256 "f55751c389400eb9e0f2a62db5470f77325a3e689014aab5a754dbf89a11fa0b"
+                                        url "https://github.com/CNimmo16/genie-cli/releases/download/0.1.2/cosine-darwin-arm64.zip"
+                                        sha256 "b9753b20a7a974f9b61b2f6bec09efbeb695d4539e4e0eb085aa1ac68e74d8c7"
   end
 
   name "Genie CLI"
