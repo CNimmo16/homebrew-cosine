@@ -15,8 +15,8 @@ cask "geniecli-nightly" do
     end
   end
 
-  name "Genie CLI Nightly"
-  desc "Nightly builds of the Genie CLI"
+  name "Cosine CLI Nightly"
+  desc "Nightly builds of the Cosine CLI"
 
   binary "cosine"
 end

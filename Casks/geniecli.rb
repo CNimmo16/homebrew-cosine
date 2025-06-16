@@ -11,7 +11,7 @@ cask "geniecli" do
                                             sha256 "77512ab4487e7e73692314eba7fbccb940255552556888c6b8ef3997e50ce196"
   end
 
-  name "Genie CLI"
+  name "Cosine CLI"
   desc "CLI for granting Genie access to your local machine"
 
   binary "cosine"
