@@ -1,4 +1,4 @@
-cask "geniecli" do
+cask "cosine" do
   arch arm: "arm64", intel: "x86_64"
   version "0.1.0"
 

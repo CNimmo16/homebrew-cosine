@@ -1,4 +1,4 @@
-cask "geniecli-nightly" do
+cask "cosine-nightly" do
   arch arm: "arm64", intel: "x86_64"
   version :latest
 
