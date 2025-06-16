@@ -15,4 +15,5 @@ cask "geniecli" do
   desc "CLI for granting Genie access to your local machine"
 
   binary "cosine"
+  binary "cosine", target: "cos"
 end

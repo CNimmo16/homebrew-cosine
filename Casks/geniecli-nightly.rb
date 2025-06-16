@@ -19,4 +19,5 @@ cask "geniecli-nightly" do
   desc "Nightly builds of the Cosine CLI"
 
   binary "cosine"
+  binary "cosine", target: "cos"
 end
