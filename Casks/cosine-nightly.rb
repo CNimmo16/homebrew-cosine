@@ -4,15 +4,14 @@ cask "cosine-nightly" do
 
   on_intel do
     url "https://github.com/CNimmo16/genie-cli/releases/download/nightly/cosine-darwin-amd64.zip"
-    sha256 do
-      `curl -s https://github.com/CNimmo16/genie-cli/releases/download/nightly/cosine-darwin-amd64.zip.sha256`.strip
-    end  
   end
   on_arm do
     url "https://github.com/CNimmo16/genie-cli/releases/download/nightly/cosine-darwin-arm64.zip"
-    sha256 do
-      `curl -s https://github.com/CNimmo16/genie-cli/releases/download/nightly/cosine-darwin-arm64.zip.sha256`.strip
-    end
+  end
+  sha256 :no_check
+
+  livecheck do
+    url "https://github.com/CNimmo16/genie-cli/releases/download/nightly/cosine-darwin-arm64.zip.sha256"
   end
 
   name "Cosine CLI Nightly"
